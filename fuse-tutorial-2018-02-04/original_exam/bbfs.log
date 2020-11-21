@@ -1,0 +1,77 @@
+
+bb_init()
+    conn:
+    proto_major = 7
+    proto_minor = 26
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 1f5da810
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 1f5d9260
+    logfile = 1f5da290
+    rootdir = /home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir
+    umask = 00000
+
+bb_getattr(path="/", statbuf=0xd170bc00)
+    bb_fullpath:  rootdir = "/home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir", path = "/", fpath = "/home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 64769
+    st_ino = 8409281
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1218494
+    st_gid = 1002
+    st_rdev = 0
+    st_size = 23
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5f563d48
+    st_mtime = 0x5f563d48
+    st_ctime = 0x5f563d48
+
+bb_getattr(path="/", statbuf=0xd0f0ac00)
+    bb_fullpath:  rootdir = "/home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir", path = "/", fpath = "/home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 64769
+    st_ino = 8409281
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1218494
+    st_gid = 1002
+    st_rdev = 0
+    st_size = 23
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5f563d48
+    st_mtime = 0x5f563d48
+    st_ctime = 0x5f563d48
+
+bb_getattr(path="/", statbuf=0xd170bc00)
+    bb_fullpath:  rootdir = "/home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir", path = "/", fpath = "/home/jm668/ECE566/fuse_program/fuse-tutorial-2018-02-04/original_exam/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 64769
+    st_ino = 8409281
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1218494
+    st_gid = 1002
+    st_rdev = 0
+    st_size = 23
+    st_blksize = 4096
+    st_blocks = 0
+    st_atime = 0x5f563d48
+    st_mtime = 0x5f563d48
+    st_ctime = 0x5f563d48
+
+bb_destroy(userdata=0x1f5d9260)
